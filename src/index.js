@@ -3,7 +3,7 @@ let nome = "Naruto";
 let xp = 2001;
 
 // Decisão do nível do herói com base na quantidade de XP
-var nivel;
+let nivel;
 if (xp < 1000) {
     nivel = "Ferro";
 } else if (xp >= 1000 && xp <= 2000) {
